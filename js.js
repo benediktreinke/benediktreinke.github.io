@@ -10,6 +10,6 @@ function reply_click(clicked_id)
     document.getElementById(idd).style.display = "none"; 
     
     var ran = "container" + Math.floor((Math.random() * 5) + 1);
-    alert(ran);
+   //alert(ran);
     document.getElementById(ran).style.display = "block";
 }
